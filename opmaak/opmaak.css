@@ -1,0 +1,748 @@
+body {
+    background: #E8DAB2;
+}
+
+.container {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 300px;
+}
+
+.head {
+    z-index: 1;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #DD6E42;
+    border-radius: 100px;
+}
+
+.ear {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #DD6E42;
+    border-radius: 70% 100% 100% 100%;
+}
+
+.ear.right {
+    left: 150px;
+    border-radius: 100% 70% 100% 100%;
+}
+
+.inner {
+    position: absolute;
+    top: 7px;
+    left: 6px;
+    width: 30px;
+    height: 30px;
+    background: #F7C4A5;
+    border-radius: 70% 100% 100% 100%;
+}
+
+.inner.right {
+    left: 10px;
+    border-radius: 100% 70% 100% 100%;
+}
+
+.face {
+    position: absolute;
+    left: 10px;
+}
+
+.eye {
+    position: absolute;
+    top: 120px;
+    left: 66px;
+    width: 10px;
+    height: 10px;
+    background: #333;
+    border-radius: 100%;
+}
+
+.eye.right {
+    left: 110px;
+}
+
+.nose {
+    position: absolute;
+    top: 119px;
+    left: 82px;
+    width: 25px;
+    height: 25px;
+    background: #A15131;
+    border-radius: 100%;
+}
+
+.mouth {
+    position: absolute;
+    top: 130px;
+    left: 70px;
+    width: 30px;
+    height: 30px;
+    background: #FFF;
+    border-radius: 100%;
+}
+
+.mouth:before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    background: #FFF;
+    border-radius: 100%;
+}
+
+.stripe.one {
+    position: absolute;
+    top: 80px;
+    left: 2px;
+    width: 40px;
+    height: 10px;
+    background: #000;
+    border-radius: 3px 100% 0 0;
+}
+
+.stripe.two {
+    position: absolute;
+    top: 100px;
+    left: 2px;
+    width: 37px;
+    height: 10px;
+    background: #000;
+    border-radius: 3px 100% 0 0;
+}
+
+.stripe.three {
+    position: absolute;
+    top: 120px;
+    left: 5px;
+    width: 30px;
+    height: 10px;
+    background: #000;
+    border-radius: 3px 100% 0 7px;
+}
+
+.stripe.four {
+    position: absolute;
+    top: 80px;
+    left: 158px;
+    width: 40px;
+    height: 10px;
+    background: #000;
+    border-radius: 100% 3px 0 0;
+}
+
+.stripe.five {
+    position: absolute;
+    top: 100px;
+    left: 162px;
+    width: 37px;
+    height: 10px;
+    background: #000;
+    border-radius: 100% 3px 0 0;
+}
+
+.stripe.six {
+    position: absolute;
+    top: 120px;
+    left: 166px;
+    width: 30px;
+    height: 10px;
+    background: #000;
+    border-radius: 100% 3px 7px 0;
+}
+
+.stripe.seven {
+    z-index: 1;
+    position: absolute;
+    top: 3px;
+    left: 76px;
+    width: 10px;
+    height: 40px;
+    background: #000;
+    border-radius: 3px 10px 150% 0;
+}
+
+.stripe.eight {
+    z-index: 1;
+    position: absolute;
+    top: 1px;
+    left: 95px;
+    width: 10px;
+    height: 40px;
+    background: #000;
+    border-radius: 3px 10px 150% 0;
+}
+
+.stripe.nine {
+    z-index: 1;
+    position: absolute;
+    top: 3px;
+    left: 116px;
+    width: 10px;
+    height: 40px;
+    background: #000;
+    border-radius: 3px 10px 150% 0;
+}
+
+.hair {
+    position: absolute;
+    top: 1px;
+    left: 70px;
+    background: #DD6E42;
+    width: 20px;
+    height: 20px;
+    border-radius: 100% 0 100% 100%;
+    transform: rotate(-20deg);
+}
+
+.hair.two {
+    left: 80px;
+}
+
+.hair.three {
+    left: 90px;
+}
+
+.newspaper {
+    z-index: 1;
+    position: absolute;
+    top: 180px;
+    left: -40px;
+    width: 150px;
+    height: 200px;
+    background: #CCC;
+}
+
+.newspaper.two {
+    position: absolute;
+    left: 110px;
+    content: '';
+    width: 150px;
+    height: 200px;
+    background: #BBB;
+}
+
+.headline {
+    opacity: 0.6;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    background: #999;
+    width: 120px;
+    height: 10px;
+}
+
+.headline.two {
+    top: 50px;
+    left: 25px;
+}
+
+
+.headline.picture {
+    width: 100px;
+    height: 60px;
+    top: 76px;
+    left: 25px;
+}
+
+.hand {
+    z-index: 1, 5;
+    position: absolute;
+    top: 270px;
+    right: 225px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #DD6E42;
+}
+
+.headline.a {
+    opacity: 0.6;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background: #999;
+    width: 120px;
+    height: 10px;
+}
+
+.headline.b {
+    top: 70px;
+    left: 20px;
+}
+
+.hand.right {
+    left: 245px;
+}
+
+
+.headline.image {
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    top: 0%;
+    left: 0%;
+}
+
+.headline.cover {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 150px;
+    height: 200px;
+    background: #BBB;
+}
+
+.scale-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.755, 0.050, 0.855, 0.060) backwards;
+    animation: scale-up-center 0.4s cubic-bezier(0.755, 0.050, 0.855, 0.060) backwards;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-2-27 21:35:44
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-up-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.kaft,
+.image {
+    color: black;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+
+}
+
+.intro {
+    color: black;
+    font-size: 40px;
+    font-family: 'VT323', monospace;
+
+}
+
+.handen,
+.oren,
+.strepen,
+.hoofd {
+    color: black;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+}
+
+.points {
+    color: red;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+}
+
+.alert {
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    width: 30%;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+    z-index: 4;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+    z-index: 6;
+
+}
+
+#myBtn {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'VT323', monospace;
+}
+
+#sommen-maken {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'VT323', monospace;
+}
+
+#calculate {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'VT323', monospace;
+}
+.multiplyme {
+        background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'VT323', monospace;
+}
+
+.Bear-info {
+    position: absolute;
+    text-align: right;
+    left: 30%;
+    top: 30%;
+    font-family: 'VT323', monospace;
+}
+
+.result {
+    font-family: 'VT323', monospace;
+}
+
+.reset {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'VT323', monospace;
+}
+
+.Intro {
+    text-align: center;
+    font-family: 'VT323', monospace;
+}
+
+.text {
+    font-family: 'VT323', monospace;
+    font-weight: bold;
+}
+
+input[type=text] {
+    left: 20%;
+    top: 30%;
+    width: 50%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-top: 4%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'VT323', monospace;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+::placeholder {
+    font-size: 30px;
+    font-family: 'VT323', monospace;
+}
+
+
+.achievement-svg {
+    position: fixed;
+    width: 10%;
+    height: 10%;
+    right: 6%;
+    top: 25%;
+}
+
+.aboutme-svg {
+    position: fixed;
+    width: 10%;
+    height: 10%;
+    right: 6%;
+    top: 5%;
+}
+
+.text-aboutme {
+    position: absolute;
+    font-family: 'VT323', monospace;
+    font-weight: bold;
+    right: 8%;
+    top: 12%;
+    font-size: 20px;
+
+}
+
+.randomize-svg {
+    position: fixed;
+    width: 10%;
+    height: 10%;
+    right: 6%;
+    top: 50%;
+
+}
+
+.text-randomize {
+    position: absolute;
+    font-family: 'VT323', monospace;
+    font-weight: bold;
+    right: 7%;
+    top: 58%;
+    font-size: 20px;
+}
+
+
+.text-achievement {
+    position: absolute;
+    font-family: 'VT323', monospace;
+    font-weight: bold;
+    right: 5%;
+    top: 33%;
+}
+
+.modal-body-text {
+    font-family: 'VT323', monospace;
+    font-weight: bold;
+    right: 2%;
+}
+
+.bear-cub {
+    width: 20%;
+}
+
+.pointer {
+    width: 10%;
+    height: 10%;
+    left: 30%;
+}
+
+.clicker-info {
+    position: absolute;
+    text-align: right;
+    left: 30%;
+    top: 60%;
+    font-family: 'VT323', monospace;
+}
+
+
+.slide-fwd-center {
+    -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+.cv-info {
+    height: 10%;
+    width: 10%;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-3-3 20:2:20
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-fwd-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-fwd-center {
+    0% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+
+    100% {
+        -webkit-transform: translateZ(160px);
+        transform: translateZ(160px);
+    }
+}
+
+@keyframes slide-fwd-center {
+    0% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+
+    100% {
+        -webkit-transform: translateZ(160px);
+        transform: translateZ(160px);
+    }
+}
+
+.Credits {
+    position: absolute;
+    bottom: 5%;
+    font-family: 'VT323', monospace;
+}

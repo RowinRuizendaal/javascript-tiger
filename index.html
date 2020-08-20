@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="opmaak/opmaak.css">
+    <meta charset="UTF-8">
+    <title>Vanilla javascript tiger</title>
+</head>
+
+<body>
+    <h3 class="points"></h3>
+    <h2 class="image"></h2>
+    <h2 class="kaft"></h2>
+    <h1 class="Intro">Click anywhere on the tiger!</h1>
+    <h2 class="hoofd"></h2>
+    <h2 class="strepen"></h2>
+    <h2 class="oren"></h2>
+    <h2 class="handen"></h2>
+
+    <div class="achievement">
+        <div class="image">
+            <img class="achievement-svg" src="images/award/award.svg" alt="">
+            <p class="text-achievement">Achievements</p>
+        </div>
+    </div>
+
+
+    <div class="Random">
+        <div class="randomize">
+            <img class="randomize-svg" src="images/random/die.svg" alt="">
+            <p class="text-randomize">Randomize</p>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="head">
+            <div class="stripe one"></div>
+            <div class="stripe two"></div>
+            <div class="stripe three"></div>
+            <div class="stripe four"></div>
+            <div class="stripe five"></div>
+            <div class="stripe six"></div>
+            <div class="stripe seven"></div>
+            <div class="stripe eight"></div>
+            <div class="stripe nine"></div>
+            <div class="ear">
+                <div class="inner"></div>
+            </div>
+            <div class="ear right">
+                <div class="inner right"></div>
+            </div>
+            <div class="face">
+
+
+                <div class="eye">
+                </div>
+                <div class="eye right"> </div>
+                <div class="nose"> </div>
+                <div class="mouth"> </div>
+            </div>
+        </div>
+        <div class="hand"></div>
+        <div class="hand right"></div>
+        <div class="newspaper">
+            <div class="headline"> </div>
+            <div class="headline two"> </div>
+            <div class="headline picture">
+                <img class="headline image" src="images/artikel/vraagteken.png" alt="">
+            </div>
+        </div>
+        <div class="newspaper two">
+            <img class="headline cover" src="images/artikel/vraagteken.png" alt="">
+        </div>
+    </div>
+
+    <div class="alert" hidden>
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+    </div>
+
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Shop</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" class="close">&times;</span>
+                <h2 class="text">Welcome to the shop</h2>
+            </div>
+            <div class="modal-body">
+                <img class="bear-cub" src="images/shop/Bear-cub.PNG" alt="">
+                <h3 class="Bear-info">Bear cub 5000 clicks<br></h3>
+                <br>
+                <img class="pointer" src="images/shop/clicker.svg" alt="">
+                <h3 class="clicker-info">Automatic clicker 200 clicks<br></h3>
+            </div>
+            <div class="modal-footer">
+                <h5 class="text">©Rowin-Danilo Ruizendaal (can you change this color aswell?)</h5>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="achievementModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" class="close">&times;</span>
+                <h2 class="text">Achievement(s)</h2>
+            </div>
+            <div class="modal-body">
+                <p class="modal-body-text">None achievements earned.</p>
+            </div>
+            <div class="modal-footer">
+                <h5 class="text">©Rowin-Danilo Ruizendaal</h5>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Trigger/Open The Modal -->
+    <button id="sommen-maken">Calculate</button>
+
+    <!-- The Modal -->
+    <div id="calculateModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" class="close">&times;</span>
+                <h2 class="text">Multiplier</h2>
+            </div>
+            <div class="modal-body">
+                <p class="modal-body-text"></p>
+                <form>
+                    First number<br>
+                    <input type="text" name="firstname" class="Getal1"><br>
+                    Second number:<br>
+                    <input type="text" name="lastname" class="Getal2">
+                    <br>
+                    <button class="multiplyme">Calculate</button>
+                    <h1 class="result">Result:</h1>
+                </form>
+
+                <br>
+            </div>
+            <div class="modal-footer">
+                <h5 class="text">©Rowin-Danilo Ruizendaal</h5>
+            </div>
+        </div>
+    </div>
+
+    <button class="reset">Reset tiger</button>
+
+    <h3 class="Credits"></h3>
+
+
+
+
+
+
+
+
+    <script src="js/tiger.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
